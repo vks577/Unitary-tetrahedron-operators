@@ -1,0 +1,3 @@
+ConstructCliffordRMatrix[A_, B_, α0_, α1_, α2_, α3_] := 
+  α0 * Kron[B, B, B] + α1 * Kron[A, A, B] + 
+  α2 * Kron[A, B, A] + α3 * Kron[B, A, A];
